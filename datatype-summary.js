@@ -35,3 +35,29 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction)
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (premitive) , Heap (Non-Premitve)
+
+let myYouTube = "Rohitkumarrai"
+let anotherName = myYouTube
+
+anotherName = "Thegreatrohit"
+
+console.log(myYouTube)
+console.log(anotherName)
+
+let userOne = {
+    Email : "rohit@gmai.com",
+    upi : "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.Email = "thegreategmail.com"
+
+console.log(userOne.Email)
+console.log(userTwo.Email)
+
